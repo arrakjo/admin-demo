@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel - Demo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="flex">
+      <nav class="navbar">
+        <div class="container flex-col">
+          <div class="logo">
+            <a href="#">Admin</a>
+          </div>
+          <div class="nav-social flex-col">
+            <div class="profile-pic"></div>
+            <div class="profile-name">Joosep Arrak</div>
+            <div class="profile-description">CEO</div>
+          </div>
+          <div class="nav-items flex-col">
+            <a href="#dashboard" class="active">Dashboard</a>
+            <a href="#stats">Statistics</a>
+            <a href="#clients">Clients</a>
+            <a href="#finance">Finance</a>
+            <a href="#support">Support</a>
+          </div>
+          <div class="nav-footer flex-col">
+            <a href="#settings">Settings</a>
+            <p class="footer">&copy; Joosep Arrak | 2022</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="content">
+        <h1>Dashboard</h1>
+        <div class="top-content flex-row">
+          <div class="card card-1">
+            <h3 class="card-title">Total orders</h3>
+            <p class="number">132</p>
+            <p class="difference">
+              Difference: <span class="positive">+ 23.4%</span>
+            </p>
+          </div>
+          <div class="card card-2">
+            <h3 class="card-title">Weekly Payouts</h3>
+            <p class="number">€44,238</p>
+            <p class="difference">
+              Difference: <span class="positive">+ €1,546</span>
+            </p>
+          </div>
+          <div class="card card-3">
+            <h3 class="card-title">Monthly Revenue</h3>
+            <p class="number">€268,114</p>
+            <p class="difference">
+              Difference: <span class="negative">- €16,021</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
